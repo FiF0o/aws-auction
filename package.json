@@ -10,7 +10,8 @@
   "scripts": {
     "env:configure": "source .env",
     "test": "serverless-bundle test",
-    "deploy": "SLS_DEBUG=* sls deploy --verbose --aws-profile ${SLS_AWS_PROFILE}"
+    "deploy": "SLS_DEBUG=* sls deploy --verbose --aws-profile ${SLS_AWS_PROFILE}",
+    "invoke:auction": "sls invoke local -f createAuction"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
