@@ -1,4 +1,4 @@
-org: jonlazarini
+org: jonlazariniaws
 app: auction-aws
 service: auction-aws
 useDotenv: true

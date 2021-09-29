@@ -10,7 +10,7 @@
   "scripts": {
     "env:configure": "source .env",
     "test": "serverless-bundle test",
-    "deploy": "sls deploy --verbose --aws-profile ${SLS_AWS_PROFILE}"
+    "deploy": "SLS_DEBUG=* sls deploy --verbose --aws-profile ${SLS_AWS_PROFILE}"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
