@@ -11,7 +11,7 @@
     "env:configure": "source .env",
     "test": "serverless-bundle test",
     "deploy": "SLS_DEBUG=* sls deploy --verbose --aws-profile ${SLS_AWS_PROFILE}",
-    "invoke:auction": "sls invoke local -f createAuction"
+    "invoke:auction": "sls invoke local -f createAuction -p ./events/createAuction.json"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

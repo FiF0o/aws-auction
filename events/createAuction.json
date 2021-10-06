@@ -1,0 +1,6 @@
+{
+  "resource": "/auction",
+  "path": "/auction",
+  "httpMethod": "POST",
+  "body": "{\"title\": \"super nice car\"}"
+}
